@@ -1,0 +1,25 @@
+{
+  "name": "Globalecomservices/Ymmp",
+  "description": "Year Make Model Professional",
+  "type":"magento2-module",
+  "authors": [
+        {
+            "name": "Globalecom",
+            "email": "mage@globalecom.net"
+        }
+    ],
+  "minimum-stability": "dev",
+    "require": {
+   	"php": "^7.1.0"
+    },
+  "version": "2.1.0",
+  "license": [
+        "OSL-3.0"
+    ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Globalecomservices\\Ymmp\\": ""
+    }
+  }
+}
